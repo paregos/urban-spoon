@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>XYZ Home Automation</title>
+	<meta charset="utf-8">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+
+	<!-- Latest compiled and minified JS of ImageMapster -->
+	<script src="jquery.imagemapster.js"></script>
+	<script src="content.js"></script>
+	<!-- <script src="resize.js"></script> -->
+
+	<!-- Latest compiled and minified CSS and JS for bootstrap -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+	<link href="css/homepage.css" type="text/css" rel="stylesheet" />
+
+</head>
+
+<body>
+
+	<div class="container-fluid" id="uppercontent">
+		<nav class="navbar navbar-default">
+			<div class="container-fluid" id="navbar">
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="index.html">
+						<img src="img/logo.jpg" alt="Brand" height="40" width="35">
+					</a>
+				</div>
+
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav">
+						<li>
+							<a href="#"></a>
+						</li>
+						<li>
+							<a href="#"></a>
+						</li>
+						<li class="active dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">First Floor <span class="caret"></span></a>
+							<ul class="dropdown-menu">
+								<li role="separator" class="divider"></li>
+								<li class="disabled"><a href="#">First Floor</a></li>
+								<li><a href="#">Second Floor</a></li>
+							</ul>
+						</li>
+						<li>
+							<a href="#"></a>
+						</li>
+
+					</ul>
+
+					<ul class="nav navbar-nav navbar-right">
+						<p class="navbar-text">Signed in as Mark Otto</p>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+								<span class="glyphicon glyphicon-cog" aria-hidden="true"></span> <span class="caret"></span>
+							</a>
+							<ul class="dropdown-menu">
+								<li><a href="#">Action</a></li>
+								<li><a href="#">Another action</a></li>
+								<li><a href="#">Something else here</a></li>
+								<li role="separator" class="divider"></li>
+								<li><a href="#">Separated link</a></li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+				<!-- /.navbar-collapse -->
+			</div>
+			<!-- /.container-fluid -->
+		</nav>
+
+		<!-- setting the highlight for floor plan -->
+		<script>
+			$(function() {
+				$(document).ready(
+					function() {
+						$('img').mapster({
+							fillColor: '6BCE72',
+							fillOpacity: 0.45,
+							singleSelect: true,
+							scaleMap: true
+						});
+
+					}
+				);
+			});
+		</script>
+		<div class="container-fluid" id="content">
+
+			<div class="row" id="house">
+				<div class="houseMap" id="row" style="width=100%">
+					<img id="Image-Maps-Com-image-maps-2016-05-16-220426" class="img-responsive" src="http://www.image-maps.com/m/private/0/cs6asv1rkbo8bptm7sdbqj1is6_2.jpg" border="0" width="1100" height="680" orgWidth="1247" orgHeight="718" usemap="#image-maps-2016-05-16-220426"
+									alt="" />
+					<map name="image-maps-2016-05-16-220426" id="ImageMapsCom-image-maps-2016-05-16-220426">
+						<area shape="rect" coords="1245,716,1247,718" alt="Image Map" style="outline:none;" title="Image Map" href="http://www.image-maps.com/index.php?aff=mapped_users_66134" />
+						<area class="Bedroom1" id="Bedroom1" alt="" title="" href="#" shape="poly" coords="32,86,313,87,313,293,30,293" style="outline:none;" target="_self" />
+						<area class="Bedroom2" alt="" title="" href="#" shape="poly" coords="32,301,322,303,319,504,31,505" style="outline:none;" target="_self" />
+						<area class="Kitchen" alt="" title="" href="#" shape="poly" coords="333,376,526,376,525,696,327,695" style="outline:none;" target="_self" />
+						<area class="LivingRoom" alt="" title="" href="#" shape="poly" coords="538,381,786,380,785,698,537,694" style="outline:none;" target="_self" />
+						<area class="MasterBedroom" alt="" title="" href="#" shape="poly" coords="945,301,1225,301,1225,42,945,39" style="outline:none;" target="_self" />
+						<area class="Entrance" alt="" title="" href="#" shape="poly" coords="536,40,691,41,689,301,537,300" style="outline:none;" target="_self" />
+					</map>
+				</div>
+			</div>
+
+			<div class="row settings" id="Bedroom1Lights" style="display: none;">
+
+				<div class="row title">
+					<h2> Bedroom1Lights </h2>
+				</div>
+
+				<div class="row">
+					<div class "col-md-9 lightcontent">
+							<div class="row">
+									<h4> Eastern Light </h4>
+							</div>
+							<div class="row">
+								<input type="range" min="0" max="50" value="25"/>
+							</div>
+					</div>
+					<div class "col-md-3 lightIcon">
+						<img src="img/icon/small-bulb.png" height="80px" width="80px">
+					</div>
+				</div>
+
+				<div class="row">
+					<div class "col-md-9 lightcontent">
+							<div class="row">
+									<h4> Eastern Light </h4>
+							</div>
+							<div class="row">
+								<input type="range" min="0" max="50" value="25"/>
+							</div>
+					</div>
+					<div class "col-md-3 lightIcon">
+						<img src="img/icon/small-bulb.png" height="80px" width="80px">
+					</div>
+				</div>
+
+			</div>
+
+
+			<div class="row panel panel-default" id="iconrow">
+
+				<div class="btn-group" data-toggle="buttons">
+
+					<div class="iconblock col-md-3" id="bulbdiv">
+						<label class="btn btn-primary active" id="bulbdiv">
+							<input type="radio" name="options" id="option1" autocomplete="off" checked>
+							<img src="img/icon/bulb-icon.png" height="150px" width="150px" />
+						</label>
+					</div>
+
+					<div class="iconblock col-md-3" id="lockdiv">
+						<label class="btn btn-primary" id="lockdiv">
+							<input type="radio" name="options" id="option2" autocomplete="off">
+							<img src="img/icon/lock-icon.png" height="150px" width="150px" />
+						</label>
+					</div>
+
+					<div class="iconblock col-md-3" id="moviediv">
+						<label class="btn btn-primary" id="moviediv">
+							<input type="radio" name="options" id="option2" autocomplete="off">
+							<img src="img/icon/movie-icon.png" height="150px" width="150px" />
+						</label>
+					</div>
+
+					<div class="iconblock col-md-3" id="homediv">
+						<label class="btn btn-primary" id="homediv">
+							<input type="radio" name="options" id="option2" autocomplete="off">
+							<img src="img/icon/home-icon.png" height="150px" width="150px" />
+						</label>
+					</div>
+
+				</div>
+
+			</div>
+
+
+		</div>
+	</div>
+
+</body>
+
+</html>
