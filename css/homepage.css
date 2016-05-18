@@ -16,10 +16,13 @@
 	.navbar-brand {
 	    padding-left: 25px;
 	    padding-top: 4px;
+			padding-right: 5px;
 	    padding-bottom: 1px;
-			border-style: solid;
-	    border-color: #EDEDED;
-	    border-width: 0px 3px 0px 0px;
+	}
+	#brandName{
+		border-style: solid;
+		border-color: #EDEDED;
+		border-width: 0px 3px 0px 0px;
 	}
 
 	.houseMap {
