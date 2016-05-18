@@ -81,6 +81,31 @@
 		padding: 0;
 		margin: 0;
 	}
+	input[type=range]{
+		display:inline-block;
+		width: 35%
+	}
+	.icon{
+		padding: 5px;
+		padding-right: 10px;
+	}
+	h2{
+		width: 50%;
+		margin: 15px;
+		display:inline-block;
+	}
+	.settingtitle{
+		margin-bottom: 20px;
+		box-shadow: 0 2px 2px 1px #949494;
+
+	}
+	.return{
+		float: right;
+		padding: 10px;
+		padding-top: 15px;
+		padding-right: 15px;
+	}
+
 
 
 	93BCB3
