@@ -37,7 +37,8 @@
 	#house{
 		padding-bottom:18px;
 		box-shadow: 0 3px 2px 3px #949494;
-		background-color: white
+		background-color: white;
+		border-radius: 3px;
 	}
 	.settings{
 		padding-bottom:18px;
@@ -60,21 +61,23 @@
 	}
 	.iconblock {
 		padding: 10px;
-		background-color: #808080;
+		background-color: white;
 	}
 	#iconrow{
 		border-style: solid;
 		border-color: #e9eff3;
 		margin-top:30px;
+		box-shadow: 0 3px 2px 3px #949494;
 		/*border-width: 30px 0px 0px 0px;*/
 	}
 	.btn{
 		border: 0;
-		color:#909090;
-		background-color: #909090;
-		border-color: #909090;
-		background-image: -webkit-gradient(linear,left top,left bottom,from(#909090),to(#909090));
-		element.style.display = 'none';
+		color:white;
+		background-color: white;
+		border-color: white;
+		background-image: -webkit-gradient(linear,left top,left bottom,from(white),to(white));
+		box-shadow: 0px 0px 0px 0px white;
+		/*element.style.display = 'none';*/
 	}
 
 	.btn-group{
@@ -87,6 +90,9 @@
 	input[type=range]{
 		display:inline-block;
 		width: 35%
+	}
+	input[type=radio]{
+		display:none;
 	}
 	.icon{
 		padding: 5px;
@@ -107,6 +113,11 @@
 		padding: 10px;
 		padding-top: 15px;
 		padding-right: 15px;
+	}
+	.btn:hover {
+  color: white;
+  background-color: white;
+  border-color: white;
 	}
 
 

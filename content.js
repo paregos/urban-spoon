@@ -7,6 +7,13 @@ $(document).ready(function() {
             $('#Bedroom1Lights').fadeIn();
         });
       }
+      if (Id == "cameradiv"){
+        $('#house').fadeOut(function(){
+            $('#BedRoom1Camera').fadeIn();
+        });
+      }
+      alert(Id);
+
 
     });
 });

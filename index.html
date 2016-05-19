@@ -4,6 +4,7 @@
 <head>
 	<title>XYZ Home Automation</title>
 	<meta charset="utf-8">
+	<link href="img/logo.jpg" rel="icon" type="image/x-icon" />
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
 
@@ -113,17 +114,17 @@
 
 			<div class="row house" id="house">
 				<div class="houseMap" id="row" style="width=100%">
-					<img id="Image-Maps-Com-image-maps-2016-05-16-220426" class="img-responsive" src="http://www.image-maps.com/m/private/0/cs6asv1rkbo8bptm7sdbqj1is6_2.jpg" border="0" width="1100" height="680" orgWidth="1247" orgHeight="718" usemap="#image-maps-2016-05-16-220426"
-									alt="" />
-					<map name="image-maps-2016-05-16-220426" id="ImageMapsCom-image-maps-2016-05-16-220426">
-						<area shape="rect" coords="1245,716,1247,718" alt="Image Map" style="outline:none;" title="Image Map" href="http://www.image-maps.com/index.php?aff=mapped_users_66134" />
-						<area class="Bedroom1" id="Bedroom1" alt="" title="" href="#" shape="poly" coords="32,86,313,87,313,293,30,293" style="outline:none;" target="_self" />
-						<area class="Bedroom2" alt="" title="" href="#" shape="poly" coords="32,301,322,303,319,504,31,505" style="outline:none;" target="_self" />
-						<area class="Kitchen" alt="" title="" href="#" shape="poly" coords="333,376,526,376,525,696,327,695" style="outline:none;" target="_self" />
-						<area class="LivingRoom" alt="" title="" href="#" shape="poly" coords="538,381,786,380,785,698,537,694" style="outline:none;" target="_self" />
-						<area class="MasterBedroom" alt="" title="" href="#" shape="poly" coords="945,301,1225,301,1225,42,945,39" style="outline:none;" target="_self" />
-						<area class="Entrance" alt="" title="" href="#" shape="poly" coords="536,40,691,41,689,301,537,300" style="outline:none;" target="_self" />
+					<img id="Image-Maps-Com-image-maps-2016-05-18-183548" src="http://www.image-maps.com/m/private/0/kdm7u7kiahcvbncrvkg9d6af03_3.jpg.png" border="0" width="998" height="574" orgWidth="998" orgHeight="574" usemap="#image-maps-2016-05-18-183548" alt="" />
+						<map name="image-maps-2016-05-18-183548" id="ImageMapsCom-image-maps-2016-05-18-183548">
+						<area shape="rect" coords="996,572,998,574" alt="Image Map" style="outline:none;" title="Image Map" href="http://www.image-maps.com/index.php?aff=mapped_users_66134" />
+						<area  class="Bedroom1" alt="" title="" href="#" shape="poly" coords="25,69,251,69,252,233,25,233" style="outline:none;" target="_self"     />
+						<area  class="Bedroom2" alt="" title="" href="#" shape="poly" coords="26,240,255,241,258,404,24,404" style="outline:none;" target="_self"     />
+						<area  class="Entrance" alt="" title="" href="#" shape="poly" coords="429,31,552,32,550,241,430,240" style="outline:none;" target="_self"     />
+						<area  class="MasterBedroom" alt="" title="" href="#" shape="poly" coords="559,28,982,29,982,240,559,238" style="outline:none;" target="_self"     />
+						<area  class="LivingRoom" alt="" title="" href="#" shape="poly" coords="428,309,630,310,630,556,429,556" style="outline:none;" target="_self"     />
+						<area  class="Kitchen" alt="" title="" href="#" shape="poly" coords="261,296,421,298,422,559,260,559" style="outline:none;" target="_self"     />
 					</map>
+
 				</div>
 			</div>
 
@@ -418,33 +419,52 @@
 			</div>
 
 
+
+
+			<div class="row settings" id="BedRoom1Camera" style="display: none;">
+				<div class="row settingtitle">
+					<h2> Bedroom1 Camera </h2>
+					<a class="return" id="return" href="#" width="40px" height="40px">
+						<img src="img/icon/cancel.png" alt="Brand" height="30" width="30">
+					</a>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+
+						<p> Camera </p>
+
+					</div>
+				</div>
+			</div>
+
+
 			<div class="row panel panel-default" id="iconrow">
 				<div class="btn-group" data-toggle="buttons">
 					<div class="iconblock col-md-3" id="bulbdiv">
 						<label class="btn btn-primary active" id="bulbdiv">
 							<input type="radio" name="options" id="option1" autocomplete="off" checked>
-							<img src="img/icon/bulb-icon.png" height="150px" width="150px" />
+							<img src="img/icon/bulb-icon.png" height="130px" width="130px" />
 						</label>
 					</div>
 
 					<div class="iconblock col-md-3" id="lockdiv">
 						<label class="btn btn-primary" id="lockdiv">
 							<input type="radio" name="options" id="option2" autocomplete="off">
-							<img src="img/icon/lock-icon.png" height="150px" width="150px" />
+							<img src="img/icon/lock-icon.png" height="130px" width="130px" />
 						</label>
 					</div>
 
-					<div class="iconblock col-md-3" id="moviediv">
-						<label class="btn btn-primary" id="moviediv">
+					<div class="iconblock col-md-3" id="cameradiv">
+						<label class="btn btn-primary" id="cameradiv">
 							<input type="radio" name="options" id="option2" autocomplete="off">
-							<img src="img/icon/movie-icon.png" height="150px" width="150px" />
+							<img src="img/icon/movie-icon.png" height="130px" width="130px" />
 						</label>
 					</div>
 
 					<div class="iconblock col-md-3" id="homediv">
 						<label class="btn btn-primary" id="homediv">
 							<input type="radio" name="options" id="option2" autocomplete="off">
-							<img src="img/icon/home-icon.png" height="150px" width="150px" />
+							<img src="img/icon/home-icon.png" height="130px" width="130px" />
 						</label>
 					</div>
 
