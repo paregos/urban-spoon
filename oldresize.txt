@@ -1,5 +1,5 @@
 var resizeTime = 0;     // total duration of the resize effect, 0 is instant
-var resizeDelay = 100;    // time to wait before checking the window size again
+var resizeDelay = 250;    // time to wait before checking the window size again
                           // the shorter the time, the more reactive it will be.
                           // short or 0 times could cause problems with old browsers.
 
@@ -15,11 +15,15 @@ function resize(maxWidth,maxHeight) {
      imgWidth = image.width();
      imgHeight = image.height();
 
+        if(maxHeight >= maxWidth){
+            maxHeight = maxWidth / 1.85;
+            imgHeight = maxHeight;
 
-            imgHeight = maxWidth / 1.85;
-            imgWidth = maxWidth;
+        } else {
 
-
+          maxHeight = maxWidth / 1.85;
+          imgHeight = maxHeight;
+        }
 
 
         newWidth=0,

@@ -1,4 +1,7 @@
 $(document).ready(function() {
+
+   onWindowResize();
+
     $(".Bedroom1").click(function() {
       var Id = $('.btn.btn-primary.active').attr('id');
 
@@ -12,8 +15,6 @@ $(document).ready(function() {
             $('#BedRoom1Camera').fadeIn();
         });
       }
-      alert(Id);
-
 
     });
 });
