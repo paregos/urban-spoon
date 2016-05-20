@@ -2,6 +2,7 @@ $(document).ready(function() {
 
    onWindowResize();
 
+   //Opening Bedroom1
     $(".Bedroom1").click(function() {
       var Id = $('.btn.btn-primary.active').attr('id');
 
@@ -15,11 +16,9 @@ $(document).ready(function() {
             $('#BedRoom1Camera').fadeIn();
         });
       }
-
     });
-});
 
-$(document).ready(function() {
+     //Opening Bedroom2
     $(".Bedroom2").click(function() {
         var Id = $('.btn.btn-primary.active').attr('id');
 
@@ -28,11 +27,9 @@ $(document).ready(function() {
               $('#Bedroom2Lights').fadeIn();
           });
         }
-
     });
-});
 
-$(document).ready(function() {
+    //Entrance
     $(".Entrance").click(function() {
         var Id = $('.btn.btn-primary.active').attr('id');
 
@@ -41,11 +38,9 @@ $(document).ready(function() {
               $('#EntranceLights').fadeIn();
           });
         }
-
     });
-});
 
-$(document).ready(function() {
+    //MasterBedroom
     $(".MasterBedroom").click(function() {
         var Id = $('.btn.btn-primary.active').attr('id');
 
@@ -54,11 +49,9 @@ $(document).ready(function() {
               $('#MasterBedroomLights').fadeIn();
           });
         }
-
     });
-});
 
-$(document).ready(function() {
+    //Kitchen
     $(".Kitchen").click(function() {
       var Id = $('.btn.btn-primary.active').attr('id');
 
@@ -67,11 +60,9 @@ $(document).ready(function() {
             $('#KitchenLights').fadeIn();
         });
       }
-
     });
-});
 
-$(document).ready(function() {
+    //LivingRoom
     $(".LivingRoom").click(function() {
         var Id = $('.btn.btn-primary.active').attr('id');
 
@@ -80,40 +71,16 @@ $(document).ready(function() {
               $('#LivingRoomLights').fadeIn();
           });
         }
-
     });
-});
 
-//fade out of the current menu and back to the origional menu
-$(document).ready(function() {
+
+    //========Return to floor plan from settings
     $(".return").click(function() {
-
         $('.settings').fadeOut(function(){
             $('#house').fadeIn(1000);
         });
-
+        onWindowResize();
     });
+
+
 });
-
-
-// $(".Bedroom2").on("click", function(e){
-//     e.preventDefault();
-//     alert('Bedroom2');
-// });
-//
-// $(".Entrance").on("click", function(e){
-//     e.preventDefault();
-//     alert('Entrance');
-// });
-// $(".MasterBedroom").on("click", function(e){
-//     e.preventDefault();
-//     alert('MasterBedroom');
-// });
-// $(".Kitchen").on("click", function(e){
-//     e.preventDefault();
-//     alert('Kitchen');
-// });
-// $(".LivingRoom").on("click", function(e){
-//     e.preventDefault();
-//     alert('LivingRoom');
-// });
