@@ -20,8 +20,6 @@ function resize(maxWidth,maxHeight) {
             imgWidth = maxWidth;
 
 
-
-
         newWidth=0,
         newHeight=0;
 

@@ -74,6 +74,15 @@ $(document).ready(function() {
     });
 
 
+    //=========Changing the values of the light sliders
+    $('.slider').change(function() {
+      var Id = "." + $(this).attr('id');
+
+      $(Id).html($(this).val() + "%");
+
+    });
+
+
     //========Return to floor plan from settings
     $(".return").click(function() {
         $('.settings').fadeOut(function(){
