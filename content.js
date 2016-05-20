@@ -82,5 +82,21 @@ $(document).ready(function() {
         onWindowResize();
     });
 
+    //=========Icon Hover/Click Section============
+    $('#bulbdiv').click(function() {
+      alert("bulbdiv");
+    });
+
+    $('#lockdiv').click(function() {
+      alert("lockdiv");
+    });
+
+    $('#cameradiv').click(function() {
+      alert("cameradiv");
+    });
+
+    $('#homediv').click(function() {
+      alert("homediv");
+    });
 
 });

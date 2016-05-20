@@ -24,6 +24,11 @@
 	    border-color: #EDEDED;
 	    border-width: 0px 3px 0px 0px;
 	}
+	.leftLine{
+		border-style: solid;
+    border-color: #EDEDED;
+    border-width: 0px 0px 0px 3px;
+	}
 	.houseMap {
 	    display: inline-block;
 	    resize: both;
@@ -88,6 +93,7 @@
 	    color: #f2f2f2;
 	}
 	h3 {
+		
 	    margin-top: 5px;
 	}
 	.btn-group {
@@ -133,5 +139,8 @@
 	    background-color: white;
 	    border-color: white;
 	    box-shadow: 0px 0px 0px 0px white;
+	}
+	.scaleHover:hover{
+		transform: scale(1.1);
 	}
 	93BCB3 8CBCB9
