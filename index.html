@@ -23,6 +23,10 @@
 	<!-- My custom css -->
 	<link href="css/homepage.css" type="text/css" rel="stylesheet" />
 
+	<!-- sweetalert latest version -->
+	<script src="js/sweetalert.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/sweetalert.css">
+
 </head>
 
 <body>
@@ -55,23 +59,23 @@
 						<li class="dropdown">
 							<a href="#" class="dropdown-toggle scaleHover" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Products <span class="caret"></span></a>
 							<ul class="dropdown-menu">
-								<li><a href="#">XYZ Home Automation</a></li>
+								<li><a href="#" class="outOfScope">XYZ Home Automation</a></li>
 								<li role="separator" class="divider"></li>
-								<li><a href="#">XYZ Home Security System</a></li>
-								<li><a href="#">XYZ Home Theatre System</a></li>
+								<li><a href="#" class="outOfScope">XYZ Home Security System</a></li>
+								<li><a href="#" class="outOfScope">XYZ Home Theatre System</a></li>
 							</ul>
 						</li>
 						<li>
 							<a href="#"></a>
 						</li>
 						<li>
-							<a href="#" class="scaleHover">About Us</a>
+							<a href="#" class="scaleHover outOfScope">About Us</a>
 						</li>
 						<li>
 							<a href="#"></a>
 						</li>
 						<li>
-							<a href="#" class="scaleHover">Contact Us</a>
+							<a href="#" class="scaleHover outOfScope">Contact Us</a>
 						</li>
 
 					</ul>
@@ -83,11 +87,11 @@
 								<span class="glyphicon glyphicon-cog" aria-hidden="true"></span> <span class="caret"></span>
 							</a>
 							<ul class="dropdown-menu">
-								<li><a href="#">Account</a></li>
-								<li><a href="#">Security Settings</a></li>
-								<li><a href="#">Contact Information</a></li>
+								<li><a href="#" class="outOfScope">Account</a></li>
+								<li><a href="#" class="outOfScope">Security Settings</a></li>
+								<li><a href="#" class="outOfScope">Contact Information</a></li>
 								<li role="separator" class="divider"></li>
-								<li><a href="#">Logout</a></li>
+								<li><a href="#" class="outOfScope">Logout</a></li>
 							</ul>
 						</li>
 					</ul>
@@ -134,7 +138,7 @@
 
 			<div class="row settings" id="Bedroom1Lights" style="display: none;">
 				<div class="row settingtitle">
-					<h2> Bedroom1 Lighting </h2>
+					<h2 class="settingsTitle1"> Bedroom1 Lighting </h2>
 					<a class="return" id="return" href="#" width="40px" height="40px">
 						<img src="img/icon/cancel.png" alt="Brand" height="30" width="30">
 					</a>
@@ -186,7 +190,7 @@
 
 			<div class="row settings" id="KitchenLights" style="display: none;">
 				<div class="row settingtitle">
-					<h2> Kitchen Lighting </h2>
+					<h2 class="settingsTitle1"> Kitchen Lighting </h2>
 					<a class="return" id="return" href="#" width="40px" height="40px">
 						<img src="img/icon/cancel.png" alt="Brand" height="30" width="30">
 					</a>
@@ -238,7 +242,7 @@
 
 			<div class="row settings" id="MasterBedroomLights" style="display: none;">
 				<div class="row settingtitle">
-					<h2> MasterBedroom Lighting </h2>
+					<h2 class="settingsTitle1"> MasterBedroom Lighting </h2>
 					<a class="return" id="return" href="#" width="40px" height="40px">
 						<img src="img/icon/cancel.png" alt="Brand" height="30" width="30">
 					</a>
@@ -302,7 +306,7 @@
 
 			<div class="row settings" id="Bedroom2Lights" style="display: none;">
 				<div class="row settingtitle">
-					<h2> Bedroom2 Lighting </h2>
+					<h2 class="settingsTitle1"> Bedroom2 Lighting </h2>
 					<a class="return" id="return" href="#" width="40px" height="40px">
 						<img src="img/icon/cancel.png" alt="Brand" height="30" width="30">
 					</a>
@@ -354,7 +358,7 @@
 
 			<div class="row settings" id="EntranceLights" style="display: none;">
 				<div class="row settingtitle">
-					<h2> Entrance Lighting </h2>
+					<h2 class="settingsTitle1"> Entrance Lighting </h2>
 					<a class="return" id="return" href="#" width="40px" height="40px">
 						<img src="img/icon/cancel.png" alt="Brand" height="30" width="30">
 					</a>
@@ -391,7 +395,7 @@
 
 			<div class="row settings" id="LivingRoomLights" style="display: none;">
 				<div class="row settingtitle">
-					<h2> LivingRoom Lighting </h2>
+					<h2 class="settingsTitle1"> LivingRoom Lighting </h2>
 					<a class="return" id="return" href="#" width="40px" height="40px">
 						<img src="img/icon/cancel.png" alt="Brand" height="30" width="30">
 					</a>
@@ -445,7 +449,7 @@
 
 			<div class="row settings img-responsive" id="BedRoom1Camera" style="display: none;">
 				<div class="row settingtitle">
-					<h2> Bedroom1 Camera </h2>
+					<h2 class="settingsTitle1"> Bedroom1 Camera </h2>
 					<a class="return" id="return" href="#" width="40px" height="40px">
 						<img src="img/icon/cancel.png" alt="Brand" height="30" width="30">
 					</a>
@@ -459,7 +463,7 @@
 
 			<div class="row settings" id="BedRoom2Camera" style="display: none;">
 				<div class="row settingtitle">
-					<h2> Bedroom2 Camera </h2>
+					<h2 class="settingsTitle1"> Bedroom2 Camera </h2>
 					<a class="return" id="return" href="#" width="40px" height="40px">
 						<img src="img/icon/cancel.png" alt="Brand" height="30" width="30">
 					</a>
@@ -473,7 +477,7 @@
 
 			<div class="row settings" id="EntranceCamera" style="display: none;">
 				<div class="row settingtitle">
-					<h2> Entrance Camera </h2>
+					<h2 class="settingsTitle1"> Entrance Camera </h2>
 					<a class="return" id="return" href="#" width="40px" height="40px">
 						<img src="img/icon/cancel.png" alt="Brand" height="30" width="30">
 					</a>
@@ -487,7 +491,7 @@
 
 			<div class="row settings" id="MasterBedRoomCamera" style="display: none;">
 				<div class="row settingtitle">
-					<h2> MasterBedRoom Camera </h2>
+					<h2 class="settingsTitle1"> MasterBedRoom Camera </h2>
 					<a class="return" id="return" href="#" width="40px" height="40px">
 						<img src="img/icon/cancel.png" alt="Brand" height="30" width="30">
 					</a>
@@ -501,7 +505,7 @@
 
 			<div class="row settings" id="LivingRoomCamera" style="display: none;">
 				<div class="row settingtitle">
-					<h2> Living Room Camera </h2>
+					<h2 class="settingsTitle1"> Living Room Camera </h2>
 					<a class="return" id="return" href="#" width="40px" height="40px">
 						<img src="img/icon/cancel.png" alt="Brand" height="30" width="30">
 					</a>
@@ -515,7 +519,7 @@
 
 			<div class="row settings" id="KitchenCamera" style="display: none;">
 				<div class="row settingtitle">
-					<h2> Kitchen Camera </h2>
+					<h2 class="settingsTitle1"> Kitchen Camera </h2>
 					<a class="return" id="return" href="#" width="40px" height="40px">
 						<img src="img/icon/cancel.png" alt="Brand" height="30" width="30">
 					</a>
@@ -545,13 +549,12 @@
 						</label>
 					</div>
 
-					<div class="iconblock col-md-3 img-responsive">
+					<div class="iconblock col-md-3 img-responsive outOfScope">
 						<div class="iconName" id="iconNameLocks">
 							<h3> Locks </h3>
 						</div>
 						<label class="btn btn-primary" id="lockdiv">
-							<input type="radio" name="options" id="option2" autocomplete="off">
-							<img src="img/icon/lock-icon.png" class="img-responsive scaleHover Icons greyed" />
+							<img src="img/icon/lock-icon.png" class="img-responsive scaleHover Icons2 greyed" />
 						</label>
 					</div>
 
@@ -565,13 +568,12 @@
 						</label>
 					</div>
 
-					<div class="iconblock col-md-3 img-responsive">
+					<div class="iconblock col-md-3 img-responsive outOfScope">
 						<div class="iconName" id="iconNameAppliances">
 							<h3> Appliances </h3>
 						</div>
 						<label class="btn btn-primary" id="homediv">
-							<input type="radio" name="options" id="option4" autocomplete="off">
-							<img src="img/icon/home-icon.png" class="img-responsive scaleHover Icons greyed" />
+							<img src="img/icon/home-icon.png" class="img-responsive Icons2 scaleHover greyed" />
 						</label>
 					</div>
 

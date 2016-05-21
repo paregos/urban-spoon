@@ -69,7 +69,7 @@
 	    border-style: solid;
 	    border-color: #EDEDED;
 	    border-width: 0px 1px 0px 1px;
-	    background-color: #e9eff3
+	    background-color: #e9eff3;
 	}
 	.iconblock {
 	    padding: 10px;
@@ -96,8 +96,11 @@
 	    background-color: #2A7FB8;
 	    /*background-image: -webkit-gradient(linear,left top,left bottom,from(#DAB785),to(#D5896F));*/
 	}
-	h2 {
+	h2.settingsTitle1 {
 	    color: #f2f2f2;
+			width: 50%;
+			margin: 15px;
+			display: inline-block;
 	}
 	h3 {
 	    margin-top: 5px;
@@ -119,11 +122,6 @@
 	.icon {
 	    padding: 5px;
 	    padding-right: 10px;
-	}
-	h2 {
-	    width: 50%;
-	    margin: 15px;
-	    display: inline-block;
 	}
 	.settingtitle {
 	    margin-bottom: 20px;
@@ -150,6 +148,10 @@
 	    transform: scale(1.2);
 	}
 	.Icons:hover {
+	    -webkit-filter: grayscale(0%);
+	    filter: grayscale(0%);
+	}
+	.Icons2:hover {
 	    -webkit-filter: grayscale(0%);
 	    filter: grayscale(0%);
 	}

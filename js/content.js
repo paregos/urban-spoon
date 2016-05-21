@@ -2,6 +2,8 @@ $(document).ready(function() {
 
     onWindowResize();
 
+  //  swal({   title: "Error!",   text: "Here's my error message!",   type: "error",   confirmButtonText: "Cool" });
+
     //Opening Bedroom1
     $(".Bedroom1").click(function() {
         var Id = $('.btn.btn-primary.active').attr('id');
@@ -122,11 +124,16 @@ $(document).ready(function() {
         onWindowResize();
     });
 
-    //=========Icon Hover/Click Section============
+    //=========Icon Click Section============
     $('.Icons').click(function() {
         $('.Icons').addClass("greyed");
         $(this).removeClass("greyed");
     });
 
+
+    // Sweet alert functionality obtained from http://t4t5.github.io/sweetalert/
+    $(".outOfScope").click(function () {
+    sweetAlert("Sorry...", "The functionality of this feature is out of the scope of the assignment.", "error");
+    });
 
 });
