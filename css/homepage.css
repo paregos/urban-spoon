@@ -157,4 +157,7 @@
 	    -webkit-filter: grayscale(100%);
 	    filter: grayscale(100%);
 	}
-	93BCB3 8CBCB9
+	img.camerafeed{
+		height: 30vw;
+		width:auto;
+	}
