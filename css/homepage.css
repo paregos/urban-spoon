@@ -24,10 +24,10 @@
 	    border-color: #EDEDED;
 	    border-width: 0px 3px 0px 0px;
 	}
-	.leftLine{
-		border-style: solid;
-    border-color: #EDEDED;
-    border-width: 0px 0px 0px 3px;
+	.leftLine {
+	    border-style: solid;
+	    border-color: #EDEDED;
+	    border-width: 0px 0px 0px 3px;
 	}
 	.houseMap {
 	    display: inline-block;
@@ -45,14 +45,13 @@
 	    border-radius: 3px;
 	    height: 38vw;
 	}
-	.lightValue{
-		padding: 5px;
-		padding-left: 10px;
-		padding-right: 10px;
-		margin-left: 13px;
-		box-shadow: 0 1px 2px 1px #949494;
+	.lightValue {
+	    padding: 5px;
+	    padding-left: 10px;
+	    padding-right: 10px;
+	    margin-left: 13px;
+	    box-shadow: 0 1px 2px 1px #949494;
 	}
-
 	.settings {
 	    padding-bottom: 18px;
 	    box-shadow: 0 3px 2px 3px #949494;
@@ -101,7 +100,6 @@
 	    color: #f2f2f2;
 	}
 	h3 {
-
 	    margin-top: 5px;
 	}
 	.btn-group {
@@ -148,15 +146,15 @@
 	    border-color: white;
 	    box-shadow: 0px 0px 0px 0px white;
 	}
-	.scaleHover:hover{
-		transform: scale(1.2);
+	.scaleHover:hover {
+	    transform: scale(1.2);
 	}
-	.Icons:hover{
-		-webkit-filter: grayscale(0%);
-		 filter: grayscale(0%);
+	.Icons:hover {
+	    -webkit-filter: grayscale(0%);
+	    filter: grayscale(0%);
 	}
-	.greyed{
-		-webkit-filter: grayscale(100%);
-		 filter: grayscale(100%);
+	.greyed {
+	    -webkit-filter: grayscale(100%);
+	    filter: grayscale(100%);
 	}
 	93BCB3 8CBCB9

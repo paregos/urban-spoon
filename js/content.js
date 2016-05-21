@@ -27,6 +27,12 @@ $(document).ready(function() {
                 $('#Bedroom2Lights').fadeIn();
             });
         }
+        if (Id == "cameradiv") {
+            $('#house').fadeOut(function() {
+                $('#BedRoom2Camera').fadeIn();
+            });
+        }
+
     });
 
     //Entrance
@@ -38,6 +44,12 @@ $(document).ready(function() {
                 $('#EntranceLights').fadeIn();
             });
         }
+        if (Id == "cameradiv") {
+            $('#house').fadeOut(function() {
+                $('#EntranceCamera').fadeIn();
+            });
+        }
+
     });
 
     //MasterBedroom
@@ -47,6 +59,11 @@ $(document).ready(function() {
         if (Id == "bulbdiv") {
             $('#house').fadeOut(function() {
                 $('#MasterBedroomLights').fadeIn();
+            });
+        }
+        if (Id == "cameradiv") {
+            $('#house').fadeOut(function() {
+                $('#MasterBedRoomCamera').fadeIn();
             });
         }
     });
@@ -60,6 +77,11 @@ $(document).ready(function() {
                 $('#KitchenLights').fadeIn();
             });
         }
+        if (Id == "cameradiv") {
+            $('#house').fadeOut(function() {
+                $('#KitchenCamera').fadeIn();
+            });
+        }
     });
 
     //LivingRoom
@@ -69,6 +91,11 @@ $(document).ready(function() {
         if (Id == "bulbdiv") {
             $('#house').fadeOut(function() {
                 $('#LivingRoomLights').fadeIn();
+            });
+        }
+        if (Id == "cameradiv") {
+            $('#house').fadeOut(function() {
+                $('#LivingRoomCamera').fadeIn();
             });
         }
     });
